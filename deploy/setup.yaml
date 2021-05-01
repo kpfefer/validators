@@ -141,7 +141,7 @@
         path: /mnt/accounts
         src: tmpfs
         fstype: tmpfs
-        opts: size=20G
+        opts: size=60G
         state: mounted
 
 - import_playbook: nginx-setup.yaml
