@@ -54,7 +54,7 @@ args=(
   "${trusted_validators[@]}"
   --no-untrusted-rpc
   --no-voting
-  --log -
+  --log /data/logs
   --wal-recovery-mode skip_any_corrupted_record
 )
 
